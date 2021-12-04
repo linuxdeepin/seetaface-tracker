@@ -1,0 +1,11 @@
+seetaface-tracker (1.0.0.1-1+dde) unstable; urgency=medium
+
+  * Fix build issue
+
+ -- chenlinxuan <chenlinxuan@uniontech.com>  Thu, 09 Dec 2021 21:00:26 +0800
+
+seetaface-tracker (1.0.0-1) unstable; urgency=medium
+
+  * Initial release 
+
+ -- liujianqing <liujianqiang@uniontech.com>  Fri, 03 Dec 2021 17:08:50 +0800

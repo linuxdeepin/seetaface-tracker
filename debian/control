@@ -1,0 +1,20 @@
+Source: seetaface-tracker
+Section: devel
+Priority: optional
+Maintainer: bd <bd@seetatech.com>
+Build-Depends: debhelper (>= 11),
+ libopencv-dev,
+ cmake,
+ seetaface-open-role-zoo,
+ seetaface-authorize,
+ seetaface-tennis,
+ seetaface-boxes
+Standards-Version: 4.5.1
+Homepage: https://github.com/SeetaFace6Open/FaceTracker6.git
+Rules-Requires-Root: no
+
+Package: seetaface-tracker
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: tracker for seetaface
+ tracker module for seetaface.

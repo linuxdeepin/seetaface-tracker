@@ -1,0 +1,2 @@
+seetaface-tracker: package-must-activate-ldconfig-trigger usr/lib64/libSeetaFaceTracking600.so
+seetaface-tracker: shlib-without-PT_GNU_STACK-section usr/lib/auto/libSeetaFaceTracking600.so

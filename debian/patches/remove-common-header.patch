@@ -1,0 +1,9 @@
+--- a/FaceTracking/CMakeLists.txt
++++ b/FaceTracking/CMakeLists.txt
+@@ -108,5 +108,5 @@
+ )
+ 
+ message("destination:" ${CMAKE_INSTALL_PREFIX})
+-install(FILES ${COMMON_INCLUDE_FILES} DESTINATION ${ENV_INCLUDE_DIR}/seeta/Common)
++#install(FILES ${COMMON_INCLUDE_FILES} DESTINATION ${ENV_INCLUDE_DIR}/seeta/Common)
+ install(FILES ${INCLUDE_FILES} DESTINATION ${ENV_INCLUDE_DIR}/seeta)
